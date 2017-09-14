@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{d0ca0044-6b3b-4866-89dc-982a06db0158}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyFiles">
+      <UniqueIdentifier>{6a4db568-cf2e-4e92-b523-1e0afd8e6bee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyFiles\D-NSpace">
+      <UniqueIdentifier>{84980b06-3cee-43f5-993e-5b39b1532269}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyFiles\Spawner">
+      <UniqueIdentifier>{5a2d5dc8-6576-493a-91e7-b1650d0e0feb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyFiles\Stats">
+      <UniqueIdentifier>{ac30e2b5-ffba-47f5-b8b3-c7a3b5615226}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyFiles\Title">
+      <UniqueIdentifier>{aecdfb9f-0500-4fce-9aae-6778cd22e939}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyFiles\Save Data">
+      <UniqueIdentifier>{f3bf4186-d0fa-4bad-88c0-075bb24e9204}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\Resources.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Resources.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Spawner\donut.hpp">
+      <Filter>MyFiles\Spawner</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\D-NSpace\my_nspace.hpp">
+      <Filter>MyFiles\D-NSpace</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="..\src\Spawner\spawner.hpp">
+      <Filter>MyFiles\Spawner</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Stats\player.hpp">
+      <Filter>MyFiles\Stats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Stats\status.hpp">
+      <Filter>MyFiles\Stats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Stats\shop.hpp">
+      <Filter>MyFiles\Stats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Title\title.hpp">
+      <Filter>MyFiles\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Stats\upgrade.hpp">
+      <Filter>MyFiles\Stats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SaveData\data_manager.hpp">
+      <Filter>MyFiles\Save Data</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\Spawner\donut.cpp">
+      <Filter>MyFiles\Spawner</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cinder_main.cpp" />
+    <ClCompile Include="..\src\Spawner\spawner.cpp">
+      <Filter>MyFiles\Spawner</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Stats\player.cpp">
+      <Filter>MyFiles\Stats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Stats\status.cpp">
+      <Filter>MyFiles\Stats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Stats\shop.cpp">
+      <Filter>MyFiles\Stats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Title\title.cpp">
+      <Filter>MyFiles\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Stats\upgrade.cpp">
+      <Filter>MyFiles\Stats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SaveData\data_manager.cpp">
+      <Filter>MyFiles\Save Data</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

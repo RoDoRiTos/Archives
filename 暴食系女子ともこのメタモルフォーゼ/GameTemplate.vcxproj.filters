@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{b34314d8-4c9f-4a7d-ae48-f2f5e3d783b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib">
+      <UniqueIdentifier>{983490c7-8486-4c78-9811-71ef005a4f66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameJam">
+      <UniqueIdentifier>{493738ba-b71d-4323-8a3e-ea94494502ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameJam\System">
+      <UniqueIdentifier>{6d092265-1831-4a17-8538-b9adee9739f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameJam\System\Scene Manager">
+      <UniqueIdentifier>{efed9030-4317-4a30-9fe6-cc9c1b658216}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameJam\Scenes">
+      <UniqueIdentifier>{da162b64-8ce3-4a15-9e9a-f6d3b9c6ec2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameJam\Scenes\Title">
+      <UniqueIdentifier>{5eb18a42-f2ce-4f8b-aca3-439ce581813a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameJam\Scenes\Game Main">
+      <UniqueIdentifier>{6bb42341-5a66-40cd-aa5c-bbb5117c87c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameJam\Scenes\Result">
+      <UniqueIdentifier>{ef314619-864b-482d-a12f-6c3efd1720c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameJam\Utility">
+      <UniqueIdentifier>{de91602a-0adf-40c7-bd35-429e49c447ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameJam\System\Resource Manager">
+      <UniqueIdentifier>{934f31c7-57b5-4569-b07c-5ae1fe4707d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameJam\Foods">
+      <UniqueIdentifier>{08ee3779-dcc9-4f1e-b963-b33e02aaf948}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameJam\Foods\Vegetables">
+      <UniqueIdentifier>{81df688b-981f-4c44-bf64-15681a432465}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameJam\Foods\Insect">
+      <UniqueIdentifier>{855f429c-ad9c-466b-86fe-f5646addc5ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameJam\Foods\Metal">
+      <UniqueIdentifier>{15dbb304-edce-43ef-b271-c15273168eb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameJam\Utility\Collision">
+      <UniqueIdentifier>{a370f06c-95b5-45cc-abdb-458d1c097f4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameJam\Scenes\Explanation">
+      <UniqueIdentifier>{ca5ed529-6c8c-461a-b20c-09cdaa9bfa6e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\lib\appEnv.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\audio.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\camera2D.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\defines.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\fileUtil.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\font.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\framework.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\gamePad.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\glExt.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\glfwWindow.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\glTexture.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\graph.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\matrix.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\os.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\os_osx.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\os_win.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\png.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\random.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\streaming.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\streamWav.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\texture.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\utils.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\vector.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\wav.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameJam\System\Scene Manager\scene.hpp">
+      <Filter>GameJam\System\Scene Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameJam\System\Scene Manager\sceneManager.hpp">
+      <Filter>GameJam\System\Scene Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameJam\Scenes\Game Main\gameMain.hpp">
+      <Filter>GameJam\Scenes\Game Main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameJam\Scenes\Result\result.hpp">
+      <Filter>GameJam\Scenes\Result</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameJam\Scenes\Title\title.hpp">
+      <Filter>GameJam\Scenes\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameJam\System\commons.hpp">
+      <Filter>GameJam\System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameJam\System\envSingleton.hpp">
+      <Filter>GameJam\System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameJam\System\Resource Manager\resourceKeys.hpp">
+      <Filter>GameJam\System\Resource Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameJam\System\Resource Manager\resourceManager.hpp">
+      <Filter>GameJam\System\Resource Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameJam\Foods\FoodObject.hpp">
+      <Filter>GameJam\Foods</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameJam\Foods\Metal\Metal.hpp">
+      <Filter>GameJam\Foods\Metal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameJam\Foods\Vegetables\Vegetables.hpp">
+      <Filter>GameJam\Foods\Vegetables</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameJam\Foods\Insect\Insect.hpp">
+      <Filter>GameJam\Foods\Insect</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameJam\System\structs.hpp">
+      <Filter>GameJam\System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameJam\Foods\selectedFood.hpp">
+      <Filter>GameJam\Foods</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameJam\Utility\Collision\collision.hpp">
+      <Filter>GameJam\Utility\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameJam\Utility\randomSingleton.hpp">
+      <Filter>GameJam\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameJam\Scenes\Explanation\explanation.hpp">
+      <Filter>GameJam\Scenes\Explanation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameJam\Foods\resultData.hpp">
+      <Filter>GameJam\Foods</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\lib\appEnv.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\audio.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\camera2D.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\fileUtil.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\font.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\gamePad.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\glExt.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\glfwWindow.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\glTexture.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\graph.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\matrix.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\os_osx.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\os_win.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\png.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\random.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\streaming.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\streamWav.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\texture.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\utils.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\wav.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\GameJam\System\Scene Manager\sceneManager.cpp">
+      <Filter>GameJam\System\Scene Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameJam\Scenes\Game Main\gameMain.cpp">
+      <Filter>GameJam\Scenes\Game Main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameJam\Scenes\Result\result.cpp">
+      <Filter>GameJam\Scenes\Result</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameJam\Scenes\Title\title.cpp">
+      <Filter>GameJam\Scenes\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameJam\System\Resource Manager\resourceManager.cpp">
+      <Filter>GameJam\System\Resource Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameJam\Foods\FoodObject.cpp">
+      <Filter>GameJam\Foods</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameJam\Foods\Metal\Metal.cpp">
+      <Filter>GameJam\Foods\Metal</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameJam\Foods\Vegetables\Vegetables.cpp">
+      <Filter>GameJam\Foods\Vegetables</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameJam\Foods\Insect\Insect.cpp">
+      <Filter>GameJam\Foods\Insect</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameJam\Foods\selectedFood.cpp">
+      <Filter>GameJam\Foods</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameJam\Utility\Collision\collision.cpp">
+      <Filter>GameJam\Utility\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameJam\Scenes\Explanation\explanation.cpp">
+      <Filter>GameJam\Scenes\Explanation</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
