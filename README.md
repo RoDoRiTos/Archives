@@ -4,6 +4,6 @@ Codes that were on my Git before i did a cleanup, they might have some files out
 Git掃除前に置いてあったプロジェクトたち、一回DLしてからアップし直しただけなのでファイルの位置がバラバラだったりします、整理するのが面倒なのでしてません！
 
 
-EVERY PIECE OF CODE HERE IS UNLICENSED, USE AT YOUR OWN RISK!!
+**EVERY PIECE OF CODE HERE IS _UNLICENSED_, USE AT YOUR OWN RISK!!**
 
-このレポジトリのソースコードはすべて「ライセンスされていない」コードです！自己判断でご利用ください！
+**このレポジトリのソースコードはすべて_「ライセンスされていない」_コードです！自己判断でご利用ください！**
